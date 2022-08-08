@@ -1,0 +1,15 @@
+public class Main
+{
+	public static void main(String[] args) {
+     totalGrade( 10,3);
+	}
+	
+	public static int totalGrade(int num1 , int num2){
+	    int x = num1+num2;
+	    if ( x <15){
+	    System.out.println("great job");
+	    }
+	    return x;
+	
+	}
+}
